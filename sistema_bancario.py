@@ -22,6 +22,7 @@ soma_saque = 0
 soma_deposito = 0
 soma_lim_saque = 0
 
+
 while True:
 
     print(menu)
@@ -84,7 +85,7 @@ while True:
             break
 
         elif sair == 2:
-            print(f" \n Você retornou ao Menu inicial! {menu}")
+            print(f" \n Você retornou ao Menu inicial!")
 
         else:
             print("Opção Inválida. \n Digite [4] para SAIR e confirme com a opção [1] Sim \n")
